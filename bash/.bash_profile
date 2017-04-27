@@ -15,6 +15,11 @@ PATH=$HOME/.linuxbrew/bin:$PATH
 MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
+# bash-completion
+if [ -f /usr/local/share/bash-completion/bash_completion ]; then
+  . /usr/local/share/bash-completion/bash_completion
+fi
+
 export PATH
 export NVM_DIR
 . "/usr/local/opt/nvm/nvm.sh"
