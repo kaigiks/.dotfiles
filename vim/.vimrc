@@ -10,7 +10,7 @@ set smarttab
 set expandtab     " Tab -> Spaces
 
 " Key binding
-inoremap jl <Esc>
+inoremap jk <Esc>
 inoremap <Esc> <Nop>
 noremap h i
 noremap i k
